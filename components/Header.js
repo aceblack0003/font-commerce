@@ -19,11 +19,11 @@ const Wrapper = styled.div`
 const StyledNav=styled.nav`
     display:flex;
     gap:15px;
-`
+`;
 const NavLink=styled(Link)`
     color:#aaa;
     text-decoration:none;
-`
+`;
 
 export default function Header() {
     return (
